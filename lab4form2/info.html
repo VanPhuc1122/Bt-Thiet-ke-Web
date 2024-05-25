@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 1</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+        .top{
+            display: flex;
+        }
+        .top p{
+            padding-left: 10px;
+        }
+        .text{
+            display: flex;
+            background-color: #877d7d;
+            width: 140px;
+            height: 40px;
+            padding-left: 18px;
+            border-radius: 4px;
+        }
+        .text p{
+            align-items: center;
+            display: flex;
+        }
+        .tt a {
+            text-decoration: none;
+            font-size: 24px;
+        }
+        .ok{
+            font-size: 20px;
+        }
+        .chung{
+           display: flex;
+           font-size: 18px;
+        }
+        .center{
+            padding-left: 150px;
+        }
+        .center1{
+            display: flex;
+            font-size: 21px;
+        }
+        .center1 input{
+            margin: 10px 82px;
+            font-size: 20px;
+        }
+        .center2{
+            display: flex;
+            font-size: 21px;
+        }
+        .center2 input{
+            margin: 10px 30px;
+            font-size: 20px;
+        }
+        .center3{
+            display: flex;
+            font-size: 21px;
+        }
+        .footer{
+            display: flex;
+            justify-content: center;
+            font-size: 25px;
+            font-weight: 700;
+        }
+        .footer p{
+            padding: 0 20px;
+            background-color: red;
+            height: 40px;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            color: #fff;
+            margin: 0 5px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="top">
+        <div class="gach" style="width: 5px; height: 60px; background-color: red; font-size: 24px;"></div>
+        <p class="tt"><a href=""><b>Thông Tin Tài Khoản</b>  <i><b>(bắt buộc)</b></i></a></p>
+        <p class="ok"> -------------------------------------------------------------------------------</i> Rút gọn <span>&#8743;</span></p>
+    </div>
+    <div class="chung">
+        <div class="left">
+            <div><p style="background-color: #ccc; width: 140px; height: 180px; display: flex; align-items: center; padding-left: 16px;">Chưa cập nhật Hình Ảnh</p></div>
+            <div class="text">
+                <p style="color: #fff;"><i class="fa-solid fa-images" style="padding-right: 19px; border-radius: 4px;"></i>Chọn avatar</p>
+             </div>
+        </div>
+        <div class="center">
+           <div class="center1">
+            <p>Họ tên <span style="color: red;">&#8727;</span></p>
+            <input type="text"" style="width: 390px; height: 30px; ">
+           </div>
+            <div class="center2">
+                <p>Số điện thoại <span style="color: red;">&#8727;</span></p>
+            <input type="text" style="width: 390px; height: 30px; "">
+            </div>
+           <div class="center3">
+            <p>Ngày sinh <span style="color: red;">&#8727;</span></p>
+            <select name="text" id="" style="width:80px; height: 30px; border-radius: 3px; margin: 10px 55px;">
+                <option value="4">4</option>
+                <option value="4">5</option>
+                <option value="4">6</option>
+            </select>
+            <select name="text" id="" style="width:80px; height: 30px; border-radius: 3px; margin: 10px 0px;">
+                <option value="4">10</option>
+                <option value="4">11</option>
+                <option value="4">12</option>
+            </select>
+            <select name="text" id="" style="width:80px; height: 30px; border-radius: 3px;margin: 10px 40px;">
+                <option value="4">1984</option>
+                <option value="4">1985</option>
+                <option value="4">1986</option>
+            </select>
+           </div>
+           <div class="center3">
+            <p>Giới tính <span style="color: red;">&#8727;</span></p>
+            <select name="text" id="" style="width: 400px; height: 35px; border-radius: 3px; margin: 10px 65px; font-size: 15px;">
+                <option value="">Nam</option>
+                <option value="">Nữ</option>
+            </select>
+           </div>
+            <div class="center3">
+                <p>Hôn nhân <span style="color: red;">&#8727;</span></p>
+            <select name="text" id="" style="width: 400px; height: 30px; border-radius: 3px; margin: 10px 60px; font-size: 15px;">
+                <option value="">Chọn tình trạng hôn nhân</option>
+            </select>
+            </div>
+           <div class="center3">
+            <p>Tỉnh/Thành Phố <span style="color: red;">&#8727;</span></p>
+            <select name="text" id="" style="width: 400px; height: 30px; border-radius: 3px;  margin: 10px; font-size: 15px;">
+                <option value="">Đà Nẵng</option>
+            </select>
+           </div>
+            <div class="center2">
+                <p>Chỗ ở hiện tại <span style="color: red;">&#8727;</span></p>
+            <input type="text" style="width: 390px; height: 30px; margin: 10px 30px;">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+            <p><i class="fa-solid fa-floppy-disk"></i>Lưu</p>
+        </div>
+        <summary>Rút gọn ></summary>
+        
+</body>
+</html>

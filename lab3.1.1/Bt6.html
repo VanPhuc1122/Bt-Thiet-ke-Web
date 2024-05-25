@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BT6</title>
+        <meta charset="utf-8">
+        <style>
+            .box{
+                text-align: center;
+            }
+            .bbox{
+                height: 7px;
+            }
+            .box2{
+             width: 200px; /* Chiều rộng của cửa sổ */
+             height:  10px; /* Chiều cao của cửa sổ */
+             overflow: auto; /* Kích hoạt thanh cuộn khi nội dung vượt quá kích thước */
+             border: 1px solid #ccc; /* Viền của cửa sổ */
+             padding: 10px; /* Khoảng cách giữa nội dung và viền của cửa sổ */
+             margin-top: -198px;
+            }
+            .a{
+                padding-left: 170px;
+            }
+            .b{
+                padding-left: 270px;
+            }
+            .c{
+                height: 20px;
+            }
+            .f{
+                text-align: center;
+            }
+            .g{
+                width: 200px; /* Chiều rộng của cửa sổ */
+             height:  30px; /* Chiều cao của cửa sổ */
+             overflow: auto; /* Kích hoạt thanh cuộn khi nội dung vượt quá kích thước */
+             border: 2px solid #ccc; /* Viền của cửa sổ */
+             padding: 10px; /
+            }
+        </style>
+        <body>
+            <div>
+                <h1 class="box">Interview Feedback</h1>
+                <h3 class="bbox">This type of form may be an easy way to consolidate/standadize</h3>
+                <h3 class="bbox">feedback on interview candidates.</h3> <br>
+            </div>
+            <div>
+                <label for="fname">Condidate Name</label>
+                <input id="fname" name="fname">
+                <label for="fname">Position Applied For</label>
+                <input id="fname" name="fname"> <br> <br> <br>
+            </div>
+            <div>
+                <label for="fname">Education Level</label> 
+                <label class="a" for="fname">Condidate is a good fit for the position</label> <br>
+ 
+            </div>
+            <div class="b">
+                <input  name="name" type="radio" value="Agree"/> Agree <br>
+                <input  name="name" type="radio" value="Somewhat Agree"/> Somewhat Agree <br>
+                <input  name="name" type="radio" value="Neutral"/> Neutral <br>
+                <input  name="name" type="radio" value="Somewhat Disagree"/> Somewhat Disagree <br>
+                <input  name="name" type="radio" value="Disagree"/> Disagree <br>
+            </div>
+            <div >
+                <label for="fname">Shoud we hire this candidate?</label> 
+                <input  name="name" type="radio" value="yes"/> Yes
+                <input  name="name" type="radio" value="no"/> No
+            </div>
+            <div >
+                <label for="fname">Comment</label>
+            </div>
+            <div class="g">
+
+            </div>
+            <div class="f">
+                <input  name="name" type="button" value="Submit"/> 
+            </div>
+            <div>
+                <ol class="box2">
+                    <li>1) Hight School</li>
+                    <li>2) Bachelors Degree</li>
+                    <li>3) Masters Degree</li>
+                    <li>4) Doctoral Degree</li>
+                    <li>5) Professional Certification</li>
+                </ol>
+            </div>
+        </body>
+    </head>
+</html>

@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+.header-logo img {
+  margin-left: 20px;
+  width: 100px;
+}
+.header-logo span {
+  font-weight: 300;
+  font-family: Roboto;
+  font-size: 0.6rem;
+  margin-left: 2px;
+  margin-right: 20px;
+}
+.header-search {
+  display: flex;
+  height: 30px;
+  margin-top: 10px;
+}
+.input {
+  position: relative;
+}
+.input input {
+  width: 600px;
+  height: 20px;
+  border-radius: 40px 0 0 40px;
+  padding: 10px 20px;
+  border: 1px solid rgb(228, 228, 228);
+}
+.input i {
+  position: absolute;
+  left: 95%;
+  transform: translateY(85%);
+}
+.btn-search {
+  border-radius: 0 30px 30px 0;
+  height: 42px;
+  border: 1px solid rgb(228, 228, 228);
+}
+.input-icon {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+}
+.header-right i {
+  margin-right: 20px;
+}
+.content-left {
+  width: 1150px;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+.video-ytb {
+  width: 986px;
+  height: 540px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.video-info {
+  width: 986px;
+  height: 570px;
+}
+.video-info-hastag a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-family: Roboto;
+}
+.video-info-luotxem {
+  display: flex;
+  align-items: center;
+  font-family: Roboto;
+}
+.video-info-title {
+  font-family: Roboto;
+  font-size: 1rem;
+}
+.video-info-title h2 {
+  margin: 10px 0px;
+}
+.video-info-luotxem {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.7erm;
+}
+.like-dislike {
+  display: flex;
+  margin-bottom: 3px;
+}
+
+.button-like-dislike button {
+  background-color: rgb(52, 52, 52);
+  padding: 10px 10px;
+  font-size: 1rem;
+  font-family: Roboto;
+  font-weight: 500;
+  color: white;
+}
+
+.like-dislike > * {
+  margin-right: 20px;
+  font-size: 1rem;
+}
+.btn-like-ytb {
+  border-radius: 30px 0px 0px 30px;
+}
+.btn-like:hover {
+  background-color: rgb(113, 112, 112);
+  cursor: pointer;
+}
+.btn-like {
+  border: 0px;
+  background-color: white;
+  cursor: pointer;
+}
+.btn-like i {
+  margin-right: 10px;
+  font-size: 1rem;
+  color: white;
+  font-size: 1.3rem;
+}
+.btn-like span {
+  margin: 0 5px;
+  color: rgb(228, 228, 228);
+  font-family: Roboto;
+}
+.btn-dislike {
+  border-radius: 0px 30px 30px 0px;
+  transform: translateX(-10%);
+  cursor: pointer;
+}
+.btn-dislike {
+  border-left: 1px solid gray;
+}
+.content {
+  display: flex;
+}
+.content-right {
+  margin-top: 15px;
+}
+.list-ytb-item {
+  display: flex;
+}
+.item-img img {
+  width: 161px;
+  height: 110px;
+  object-fit: fill;
+  border-radius: 7px;
+}
+.item-info {
+  align-items: center;
+  margin-left: 5px;
+  flex: 1;
+}
+.item-info i {
+  font-size: 0.2rem;
+  transform: translateY(-100%);
+}
+.item-info a {
+  text-decoration: none;
+}
+.title-song {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin: 0px 0px;
+  color: black;
+  margin-bottom: 10px;
+  font-family: Roboto;
+}
+.singer i {
+  font-size: 0.6rem;
+  transform: translateY(-30%);
+}
+.singer,
+.song-luotxem {
+  font-size: 0.8rem;
+  color: rgb(145, 145, 145);
+  margin: 0px 0px;
+  margin-bottom: 3px;
+  font-family: Roboto;
+}
+.channel img {
+  border-radius: 50%;
+}
+.channel {
+  display: flex;
+}
+.channel-info {
+  align-items: center;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.channel-info h3,
+p {
+  margin: 0 0;
+  font-size: 1rem;
+}
+.channel-info a {
+  text-decoration: none;
+}
+.channel-dangky a {
+  text-decoration: none;
+}
+.channel-info h3 {
+  margin-bottom: 5px;
+  color: black;
+}
+.channel-info p {
+  font-size: 0.8rem;
+  color: rgb(145, 145, 145);
+}
+.channel-dangky {
+  margin-left: 30px;
+  width: 80px;
+  height: 33px;
+  background-color: black;
+  margin-top: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  padding: 0px 5px;
+}
+.channel-dangky a {
+  text-decoration: none;
+  color: white;
+  font-family: Roboto;
+}

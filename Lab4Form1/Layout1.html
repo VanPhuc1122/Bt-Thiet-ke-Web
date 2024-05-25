@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .page {
+        width: 500px;
+        height: auto;
+        background-color: rgb(229, 223, 223);
+        padding: 10px;
+      }
+      .header {
+        background-color: rgb(141, 247, 187);
+        padding: 5px;
+      }
+      .content {
+        background-color: rgb(255, 148, 148);
+        height: auto;
+      }
+      .container {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        padding: 5px;
+      }
+      span {
+        margin-left: 5px;
+      }
+      .entry {
+        height: 50px;
+        background-color: rgb(152, 223, 245);
+        padding: 5px;
+      }
+      .Sidebar {
+        height: auto;
+        background-color: rgb(152, 223, 245);
+        grid-area: 1/2/4/3;
+        padding: 5px;
+      }
+      .footer {
+        background-color: rgb(38, 202, 38);
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      PAGE
+      <div class="header">HEADER</div>
+      <div class="content">
+        <span>CONTENT</span>
+        <div class="container">
+          <div class="entry">ENTRY</div>
+          <div class="entry">ENTRY</div>
+          <div class="entry">ENTRY</div>
+          <div class="Sidebar">SIDEBAR</div>
+        </div>
+      </div>
+      <div class="footer">FOOTER</div>
+    </div>
+  </body>
+</html>

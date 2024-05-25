@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+        }
+        .top{
+            display: flex;
+            justify-content: center;
+            font-size: 20px;
+           
+        }
+        .top_duoi tr td input{
+            font-size: 20px;
+        }
+        .ngaysinh td option{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form action="xulidangky.html" method="post" class="top">
+        <table border="2"" class="top_duoi">
+           <tr>
+            <th colspan="8"><h1>ĐĂNG KÝ</h1></th>
+           </tr>
+           <tr>
+           <td style="padding-left: 10px;">Full name</td>
+           <td style="padding-left: 10px;"><input type="text" size="30" placeholder="Nhập fullname"></td>
+        </tr>
+        <tr >
+           <td style="padding-left: 10px;">Username</td>
+           <td style="padding-left: 10px;"><input type="text" size="30" placeholder="Nhập tên"></td>
+        </tr>
+        <tr>
+            <td style="padding-left: 10px;">Password</td>
+           <td style="padding-left: 10px;"><input type="password" name="" size="30" placeholder="Nhập mật khẩu"></td>
+        </tr>
+        <tr>
+            <td style="padding-left: 10px;">Nhập lại Password</td>
+           <td style="padding-left: 10px;"><input type="password" size="30" placeholder="Nhập lại mật khẩu"></td>
+        </tr>
+        <tr>
+            <td style="padding-left: 10px;">Giới tính</td>
+            <td style="padding-left: 10px;"><input type="radio" id="Nam" name="gioitinh">Nam
+                <input type="radio" id="Nu" name="gioitinh">Nữ
+            </td>
+        </tr>
+        <tr>
+            <td class="ngaysinh" style="padding-left: 10px;">Ngày sinh</td>
+            <td style="padding-left: 10px;"><select name="" id="">
+                <option value="Ngay">Ngày 1</option>
+                <option value="Ngay">Ngày 2</option>
+                <option value="Ngay">Ngày 3</option>
+            </select>
+            <select name="" id="">
+                <option value="">Tháng1</option>
+                <option value="">Tháng2</option>
+                <option value="">Tháng3</option>
+            </select>
+            <select name="" id="">
+                <option value="">Năm 2015</option>
+                <option value="">Năm 2016</option>
+                <option value="">Năm 2017</option>
+            </select>
+        </td>
+        </tr>
+        <tr>
+            <td style="padding-left: 10px;">Địa chỉ</td>
+            <td style="padding-left: 10px;"><textarea name="" id="" cols="30" rows="3" style="display: flex;"></textarea></td>
+        </tr>
+        <tr>
+            <td style="padding-left: 10px;">Avatar</td>
+            <td style="padding-left: 10px;"><input type="file"></td>
+        </tr>
+        <tr>
+            <td style="padding-left: 10px;">Sở thích</td>
+            <td style="padding-left: 10px;">
+                <input type="checkbox"> Xem Phim
+                <input type="checkbox">Thể Thao
+                <input type="checkbox">Web
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center" style="padding-left: 10px;">
+                <input type="reset" value="Reset" style="margin: 0px 20px;">
+                <input type="submit" value="OK">
+            </td>
+        </tr>
+        </table>
+    </form>
+</body>
+</html>

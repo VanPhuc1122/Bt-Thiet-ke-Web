@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background: rgb(32, 33, 36);
+        color: white;
+      }
+      .nav {
+        display: flex;
+        margin: 12px 12px;
+        font-size: 1rem;
+        justify-content: flex-end;
+        column-gap: 1.5rem;
+      }
+      .nav-link {
+        text-decoration: none;
+        color: white;
+      }
+      .nav-icons {
+        font-size: 25px;
+        color: white;
+      }
+      .nav img {
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+      }
+      .home-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 103px;
+      }
+      .home-img img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+        margin-bottom: 30px;
+      }
+      .home-search {
+        width: 580px;
+        height: 50px;
+        border: 1px solid rgba(128, 128, 128, 0.5);
+        border-radius: 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 8px 0 14px;
+      }
+      .icon-right {
+        display: flex;
+        font-size: 20px;
+        column-gap: 1rem;
+        margin: 10px 5px;
+      }
+      .home-text textarea {
+        background-color: #00000000;
+        border: none;
+        resize: none;
+        color: #bdc1c6;
+        outline: none;
+        line-height: 22px;
+        word-wrap: break-word;
+      }
+      textarea {
+        margin: 10px 5px;
+      }
+      .home-search:hover {
+        background-color: rgb(48, 49, 52);
+      }
+      .home-pop {
+        margin-top: 20px;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+      }
+      .home-pop-btn {
+        margin: 10px 4px;
+        background: #303134;
+        color: white;
+        border: 1px solid #303134;
+        border-radius: 3px;
+        padding: 10px 16px;
+        font-size: 0.9rem;
+      }
+      .home-ngongu {
+        margin-top: 20px;
+        color: #bdc1c6;
+        display: flex;
+        font-size: 0.8rem;
+      }
+      .home-ngongu a {
+        display: flex;
+        text-decoration: none;
+        padding: 0 3px;
+        color: #c58af9;
+        font-size: 0.8rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="nav-container">
+        <div class="nav">
+          <a href="" class="nav-link">Gmail</a>
+          <a href="" class="nav-link">Hình ảnh</a>
+          <div class="nav-icons">
+            <i class="bx bxs-grid"></i>
+          </div>
+          <img
+            src="https://lh3.googleusercontent.com/-mKGRYIXajDg/AAAAAAAAAAI/AAAAAAAAAAA/ALKGfknR1OBcTtuB-aJSM8mBAI-Z_QNAIw/photo.jpg?sz=46"
+            alt=""
+          />
+        </div>
+    </div>
+</header>
+<section class="home-container">
+  <div class="home-img">
+    <img
+      src="./ggg.png"
+      alt=""
+    />
+  </div>
+  <div class="home-search">
+    <i class="bx bx-search-alt-2"></i>
+    <div class="home-text">
+      <textarea name="" id="" cols="56" rows="1"></textarea>
+    </div>
+    <div class="icon-right">
+      <i class="bx bxs-microphone"></i>
+      <i class="bx bxs-keyboard"></i>
+      <i class="bx bxs-camera"></i>
+    </div>
+  </div>
+  <div class="home-pop">
+    <input type="submit" class="home-pop-btn" value="Tìm trên Google" />
+    <input
+      type="submit"
+      class="home-pop-btn"
+      value=" Xem trang đầu tiên tìm được"
+    />
+  </div>
+  <div class="home-ngongu">
+    Google có các thứ tiếng:
+    <a href="">English</a>
+    <a href="">Français</a>
+    <a href="">繁體中文</a>
+  </div>
+</section>
+</body>
+</html>

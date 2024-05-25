@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 3</title>
+    <style>
+        .box1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .a{
+            display: flex;
+        }
+        .a1{
+            margin-right: 50px;
+            font-size: 24px;
+        }
+        .box{
+            width: 80px;
+            height: 40px;
+            overflow: auto;
+            border: 5px;
+        }
+        .b{
+            display: flex;
+        }
+        .box2{
+            display: inline-block;
+            font-size: 24px;
+            display: flex;
+        }
+       .box2 input{
+        margin: 5px 15px;
+       }
+    .box3{
+        display: inline-block;
+        font-size: 24px;
+        display: flex;
+    }
+    .box3 input{
+        margin: 5px 15px;
+        height: 140px;
+        width: 400px;
+    }
+    .box4{
+        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .box4 button{
+        font-size: 24px;
+        margin: 0 20px;
+    }
+    </style>
+</head>
+<body>
+   <form action="">
+    <div class="box1">
+        <p><h2>THÔNG TIN ỨNG VIÊN </h2></p>
+    </div>
+    <div class="a">
+        <p class="a1">Họ tên</p>
+        <p class="a1"><input type="text"></p>
+    </div>
+    <div class="b">
+        <div>
+            <p class="a1">Năm sinh</p>
+        </div>
+        <div class="box">
+            <p class="a1">1990</p>
+        </div>
+    </div>
+    <div class="box2">
+        <p>Giới tính</p> 
+        <p><input name="gender" type="radio" value="Male" /> Nam</p>
+        <p><input name = "gender" type="radio" value="Female" /> Nữ</p> 
+    </div>
+    <div class="box2">
+        <p>Mức lương đề nghị</p>
+        <p><input type="text"></p>
+    </div>
+    <div class="box2">
+        <p>Hình thức làm việc</p>
+        <p><input name = "gender" type="checkbox" value = "Toàn thời gian"> Toàn thời gian</p>
+        <p><input name = "gender" type="checkbox" value = "Bán thời gian"> Bán thời gian</p>
+    </div>
+    <div class="box3">
+        <p>Thông tin khác</p>
+        <p><input type="text"></p>
+    </div>
+    <div class="box4">
+        <p><button>GỬI</button></p>
+        <p><button>XOÁ</button></p>
+    </div>
+   </form>
+</body>
+</html>

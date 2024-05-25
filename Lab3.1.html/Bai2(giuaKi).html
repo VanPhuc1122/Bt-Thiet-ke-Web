@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 2</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    <style>
+          body{
+      font-family: Arial, sans-serif;
+    }
+    .bang{
+        padding-left: 120px;
+    }
+    .bang1{
+        padding-left: 115px;
+        margin: 10px 0px;
+    }
+    .chua{
+        padding-left: 285px;
+    }
+    .chuacuoi p button{
+        height: 30px;
+        width: 100px;
+        border-radius: 8px;
+        background-color: orange;
+        border-color: #ccc;
+        color: black;
+        font-size: 17px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    </style>
+</head>
+<body>
+   <form action="">
+    <h2 style="padding-left: 290px; color: orange; margin-bottom: 10px;">Thông tin Tài Khoản</h2>
+    <table class="bang">
+        <tr>
+        <td style="padding-left: 50px;">Địa chỉ email</td>
+        <td><input type="text" style="width: 500px; border-color: #ccc; border-radius: 2px; height: 25px;"></td>
+        </tr>
+        <tr>
+            <td style="padding-left: 30px;">Xác nhận email</td>
+            <td><input type="text" style="width: 500px; border-color: #ccc; height: 25px;margin: 35px 0px;"></td>
+        </tr>
+        <tr>
+            <td style="padding-left: 70px;">Mật khẩu</td>
+            <td><input type="password" style="height: 25px; margin: 10px 0px; width: 400px;  border-color: #ccc;"></td>
+            <td>4 đến 20 kí tự</td>
+        </tr>
+        <tr>
+            <td style="padding-right: 30px; ">Xác nhận mật khẩu</td>
+            <td><input type="password" style="width: 400px; border-color: #ccc;  height: 22px;"></td>
+        </tr>
+    </table>
+    <hr>
+    <h2 style="padding-left: 290px; color: orange; margin-bottom: 10px;">Thông Tin Cá Nhân</h2>
+    <table class="bang1">
+        <tr>
+            <td style="padding-left: 126px;">Họ</td>
+            <td><input type="text" placeholder="Họ" style="width: 400px; height: 22px; font-size: 16px; "></td>
+        </tr>
+        <tr>
+            <td style="padding-left: 120px; height: 40px;">Tên</td>
+            <td><input type="text" placeholder="Tên" style="height: 22px; width: 400px; font-size: 16px;"></td>
+        </tr>
+        <tr>
+            <td style="padding-right: 20px; height: 45px;" >Ngày tháng năm sinh</td>
+            <td><select name="" id="" style="height: 30px; font-size: 14px; width: 160px;">
+                <option value="Ngay">Chọn ngày</option>
+            </select>
+            <select name="" id="" style="height: 30px; font-size: 14px; width: 160px;">
+                <option value="">Chọn tháng</option>
+            </select>
+            <input type="text" placeholder="Nhập năm" style="height: 23px; font-size: 14px; width: 160px; font-weight: bold;"></td>
+           
+           
+        </tr>
+        <tr>
+            <td style="padding-left: 90px; height: 30px;">Giới tính</td>
+            <td><input type="radio" id="gioitinh" value="Nam">Nam
+                <input type="radio" id="gioitinh" value="Nữ">Nữ</td>
+            
+        </tr>
+        <tr>
+            <td style="padding-left: 85px; height: 40px;">Quốc gia</td>
+            <td><select name="" id="" style="height: 22px; width: 130px;font-size: 18px;">
+                <option value="">Việt Nam</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td style="padding-left: 73px; ">Nơi cư ngụ</td>
+            <td><select name="" id="" style="height: 29px; width: 280px; font-size: 16px;">
+                <option value="">
+                    Vui lòng chọn...
+                </option>
+            </select></td>
+        </tr>
+    </table>
+    <hr>
+    <div class="chua">
+        <p><input type="checkbox">Tôi đã đọc và đồng ý với các <a href="" style="color: rgb(2, 93, 190);">Quy định bảo mật</a> và <a href="" style="color: rgb(2, 93, 190);">Thoả thuận sử dụng</a></p>
+        <p><input type="checkbox">Tôi muốn nhận <b>Bản Tin VietnamWorks</b> hàng tuần</p>
+        <p><input type="checkbox">Tôi muốn nhận <b>Bản Tin Bí Quyết Quản Lý</b> hàng tháng(dành cho cấp quản lý)</p>
+    </div>
+    <hr>
+   <div class="chuacuoi">
+    <p style="padding-left: 220px;"><button>Đăng ký</button></p>
+   </div>
+   </form>
+</body>
+</html>
